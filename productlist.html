@@ -23,14 +23,19 @@
     <main>
         <h1>Apparel</h1>
         <div class="article">
-            <article class="productSmall">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="t-shirt">
-                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-                <p class="subtitle">T-shirt - Nike</p>
-                <p class="price">DKK 895,-</p>
-                <a href="product.html">Read more...</a>
-            </article>
-            <article class="productDiscount">
+            <template id="smallProductTemplate">
+
+                <article class="smallProduct">
+                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="t-shirt">
+                    <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+                    <p class="subtitle">T-shirt - Nike</p>
+                    <p class="price">DKK 895,-</p>
+                    <a href="product.html">Read more...</a>
+                </article>
+
+            </template>
+        </div>
+        <!--  <article class="smallProduct onSale">
                 <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="t-shirt">
                 <h3>Blue T20 Indian Cricket Jersey</h3>
                 <p class="subtitle">T-shirt - Nike</p>
@@ -41,8 +46,8 @@
                 </div>
                 <a href="product.html">Read more...</a>
             </article>
-            <article class="productSoldOut">
-                <h3 class="soldOut">SOLD OUT</h3>
+            <article class="smallProduct soldOut">
+                <h3>SOLD OUT</h3>
                 <img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="t-shirt">
                 <h3>Mean Team India Cricket Jersey</h3>
                 <p class="subtitle">T-shirt - Nike</p>
@@ -52,11 +57,11 @@
                     <p>45%</p>
                 </div>
                 <a href="product.html">Read more...</a>
-            </article>
-        </div>
+            </article>-->
+
 
     </main>
-    <script src="main.js"></script>
+    <script src="productlist.js"></script>
 </body>
 
 </html>

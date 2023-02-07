@@ -122,7 +122,5 @@ main a:hover {
 }
 
 .soldOut {
-  position: absolute;
   background-color: grey;
-  padding: 15px;
 }
